@@ -1,0 +1,28 @@
+Backend
+- Spring-Boot ==> 3.2.1
+- Project ==> Maven
+- Language ==> Java
+- Group ==> sut.css
+- Artifact ==> stu_reg_eva
+- Name ==> stu_reg_eva
+- Description ==> Students' Registration and Evaluation System
+- Package name ==> sut.ccs.stu_reg_eva
+- Packaging ==> War
+- Java ==> 21
+- Init Dependencies ==> [Spring Web, Spring Data JPA, Lombok, Spring Data JDBC, Okta]
+- Apache Maven ==> 3.9.5
+- DB Browser for SQLite ==> 3.12.2
+- Add-on Dependencies ==> [Sqlite-jdbc 3.42.0.0, SQLite Dialect For Hibernate 0.1.2]
+<dependency>
+	<groupId>org.xerial</groupId>
+	<artifactId>sqlite-jdbc</artifactId>
+	<version>3.42.0.0</version>
+</dependency>
+	<dependency>
+        <groupId>org.hibernate.orm</groupId>
+        <artifactId>hibernate-community-dialects</artifactId>
+    </dependency>
+- Run command ==> mvnw spring-boot:run, mvnw clean
+Frontend
+- Vue ==> 4.5.10
+- Npm ==> 8.18.0
